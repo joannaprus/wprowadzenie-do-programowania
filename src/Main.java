@@ -1,4 +1,4 @@
-public class Maim{
+public class Main {
     public static void main(String[] args){
         String name = "Asia";
         int wiek = 39;
