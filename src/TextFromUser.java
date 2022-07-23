@@ -4,8 +4,13 @@ public class TextFromUser {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String userImput = scanner.nextLine();
-        System.out.println("Witaj użytkowniku"+userImput);
+        System.out.println("Podaj imię");
+        String imię = scanner.nextLine();
+        System.out.println("Podaj nazwisko");
+        String nazwisko = scanner.nextLine();
+        System.out.println("Podaj wiek");
+        int wiek = scanner.nextInt();
+        System.out.println("witaj"+ imię+ " "+nazwisko +".Masz" +wiek+"lat." );
 
     }
 }
